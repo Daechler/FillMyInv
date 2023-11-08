@@ -1,0 +1,12 @@
+name: FillMyInv
+version: '${project.version}'
+main: net.daechler.fillmyinv.FillMyInv
+api-version: '1.20'
+authors: [Daechler]
+description: Fill up your inventory for testing purposes.
+commands:
+  deathinv:
+    description: Fill up your inventory for testing purposes.
+    usage: /<command>
+    permission: fillmyinv.use
+    aliases: [fmi]
